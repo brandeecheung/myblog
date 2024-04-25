@@ -134,13 +134,12 @@ a:active {
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(9.5px);
-  -webkit-backdrop-filter: blur(9.5px);
-  padding: 20px;
-  padding-top: 5px;
+  padding: 40px;
+  padding-top: 50px;
   border-radius: 10px;
   overflow-y: auto;
   max-height: 80vh;
-  text-align: center;
+  text-align: right;
   animation: fadeIn 0.5s ease-in-out;
 }
 
