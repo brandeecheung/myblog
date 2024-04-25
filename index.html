@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <title>Blog</title>
+</head>
+
+<body>
+  <header>
+    <div class="buttons" style="float: left;">
+      <h1 class="logo"><a href="./blog.html">My Blog</a></h1>
+      <button type="button" id="ldmode-index" class="">Light/Dark Mode</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="form-style">
+      <form id="postForm" action="blog.html">
+        <div class="form-group">
+          <label class="post-heading" for="postUsername">Username</label>
+          <input type="text" class="username" id="postUsername" name="postUsername" autocomplete="off" required>
+        </div>
+        <div class="form-group">
+          <label class="post-heading" for="postTitle">Title</label>
+          <input type="text" class="post-title" id="postTitle" name="postTitle" autocomplete="off" required>
+        </div>
+        <div class="form-group">
+          <label class="post-heading" for="postContent">Content</label>
+          <textarea class="post-content" id="postContent" name="postContent" autocomplete="off" required></textarea>
+        </div>
+        <button type="submit" id="postSubmitBtn" class="post-submit-btn">Post</button>
+      </form>
+    </div>
+
+  </main>
+  <footer>
+    <div class="footer-content">
+      <a href="https://brandeecheung.github.io/PortfolioPage/">Developer Portfolio</a>
+  </footer>
+  </div>
+  <script src="./assets/js/index.js"></script>
+  <script src="./assets/js/logic.js"></script>
+</body>
+
+</html>
