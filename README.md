@@ -1,127 +1,19 @@
-# 04 Web APIs: Personal Blog
+# My Blog 📝
 
-## Your Task
+## Goal
 
-In this challenge, you'll create a two-page website where users will input and view blog posts. It includes building a content form, dynamically rendering blog posts, and implementing a light/dark mode toggle. As you code, you'll gain practical JavaScript experience, explore the Document Object Model's power, and set the stage for more advanced tasks.
+Create a two-page website where users will input and view blog posts. It includes building a content form, dynamically rendering blog posts, and implementing a light/dark mode toggle. 
 
-## User Story
-
-```md
-AS A marketing student,
-I WANT a personal blog
-SO THAT I can showcase my thoughts and experiences.
-```
-
-## Acceptance Criteria
-
-```md
-GIVEN a personal blog
-WHEN I load the app,
-THEN I am presented with the landing page containing a form with labels and inputs for username, blog title, and blog content.
-WHEN I submit the form,
-THEN blog post data is stored to localStorage.
-WHEN the form submits,
-THEN I am redirected to the posts page.
-WHEN I enter try to submit a form without a username, title, or content,
-THEN I am presented with a message that prompts me to complete the form.
-WHEN I view the posts page,
-THEN I am presented with a header, with a light mode/dark mode toggle, and a "Back" button.
-WHEN I click the light mode/dark mode toggle,
-THEN the page content's styles update to reflect the selection.
-WHEN I click the "Back" button,
-THEN I am redirected back to the landing page where I can input more blog entries.
-WHEN I view the main content,
-THEN I am presented with a list of blog posts that are pulled from localStorage.
-WHEN I view localStorage,
-THEN I am presented with a JSON array of blog post objects, each including the post author's username, title of the post, and post's content.
-WHEN I take a closer look at a single blog entry in the list,
-THEN I can see the title, the content, and the author of the post.
-WHEN I view the footer,
-THEN I am presented with a link to the developer's portfolio.
-```
-
-## Getting Started
-
-Your file structure should look like the following:
-
-```md
-my-blog
-├── assets
-│   ├── css
-│   │   ├── blog.css
-│   │   ├── form.css
-│   │   └── styles.css
-│   └── js
-│       ├── blog.js
-│       ├── form.js
-│       └── logic.js
-├── index.html
-├── blog.html
-└── README.md
-```
+## Functionality
+This web application was created with HTML, CSS, and JS. The purpose of this project is to hold blog entries and save them to be navigated through using scroll. The homepage features a form to create a blog. Both the index.html and blog.html pages have light dark mode toggles represented by emojis. The blog.html page offers a back button to navigate back to the form to create a new post again. Both pages have a MyBlog button that takes you to the form page as well. To use the blog the Username, Title, and content fields must be filled out to reflect all three components on the full index.html page. The bottom footer has a 'developer portoflio' to take the user to the developer 'portfolio page'.
 
 ## Mock-Up
 
-The following animation demonstrates the application functionality:
+The following is a link to the repository: [Blog repository](https://github.com/brandeecheung/myblog) and the Blog itself: [Blog site](https://brandeecheung.github.io/myblog/).
 
-![A user adds a blog through a form, then the post appears on the following page.](./Assets/100-web-apis-challenge-demo.gif)
+The following animation shows the web application's appearance and functionality:
+![Blog gif](./images/blog.gif)
 
-## Grading Requirements
-
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-
-This Challenge is graded based on the following criteria:
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the preceding acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
----
-
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+The following screenshots show the web application's appearance and functionality:
+![Blog Screen 1 png](./images/screen1.png)
+![Blog Screen 1 png](./images/screen2.png)
